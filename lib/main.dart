@@ -15,7 +15,8 @@ void main() {
             mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text("eeeeee celular eu te quebro"),
-            Text("23/3/26")
+            Text("23/3/26"),
+            Icon(Icons.add_alarm)
           ],
         )
        )
