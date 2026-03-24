@@ -4,7 +4,21 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        body: Text("lero lero")
+        appBar:AppBar(
+           backgroundColor: const Color.fromARGB(255, 182, 113, 113),
+          title:Center(
+            child:  Text("lero lero"),
+          )
+        ),
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text("eeeeee celular eu te quebro"),
+            Text("23/3/26")
+          ],
+        )
+       )
       )
     )
   );
